@@ -1,0 +1,10 @@
+francais = float(input("veuillez saisir la note de Français /20:"))
+coef_français = float(input("veuillez saisir le coefficient de Français:"))
+math = float(input("veuillez saisir la note de Math /20:"))
+coef_math = float(input("veuillez saisir le coefficient de Math:"))
+geometrie = float(input("veuillez saisir la note de Géométrie /20:"))
+coef_geometrie = float(input("veuillez saisir le coefficient de Géométrie:"))
+informatique = float(input("veuillez saisir la note d'informatique /20:"))
+coef_info = float(input("veuillez saisir le coefficient d'informatique:"))
+
+print(f"La moyenne est de {((francais*coef_français)+(math*coef_math)+(geometrie*coef_geometrie)+(informatique*coef_info)/4)/(coef_info+coef_français+coef_geometrie+coef_math)}")
